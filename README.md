@@ -21,8 +21,14 @@ Or install directly from the **[Chrome Web Store](#)** _(coming soon)_.
 
 | Version | Date          | Download                                 | Notes                                                        |
 | ------- | ------------- | ---------------------------------------- | ------------------------------------------------------------ |
+| v1.0.2  | 29 March 2026 | [tabaisco-1.0.2.zip](tabaisco-1.0.2.zip) | Dropdown fix, remove Minimal light theme                     |
 | v1.0.1  | 29 March 2026 | [tabaisco-1.0.1.zip](tabaisco-1.0.1.zip) | Brand icons, keyboard cycling, small-screen alternation, CSP |
 | v1.0.0  | 29 March 2026 | [tabaisco-1.0.0.zip](tabaisco-1.0.0.zip) | Initial public release                                       |
+
+### What's new in v1.0.2
+
+- **Dropdown fix** — Temperature, news source, and background dropdowns no longer snap shut immediately on click. The engine picker was stealing focus from native `<select>` elements on every outside click.
+- **Minimal light theme removed** — The light theme option is gone from the background picker. Any previously saved preference is automatically migrated to Aurora.
 
 ### What's new in v1.0.1
 
