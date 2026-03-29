@@ -2,7 +2,7 @@
 
 This repository contains the official packaged releases of the **Tabaisco** Chrome extension.
 
-> Tabaisco replaces your new-tab page with a fast, focused productivity hub: AI + web search across 12 engines, live weather, rolling news, and live sports scores.
+> Tabaisco replaces your new-tab page with a fast, focused productivity hub: AI + web search across 12 engines, live weather, rolling news, live sports scores, and a smart app shortcuts panel.
 
 ---
 
@@ -19,9 +19,20 @@ Or install directly from the **[Chrome Web Store](#)** _(coming soon)_.
 
 ## Releases
 
-| Version | Date          | Download                                 |
-| ------- | ------------- | ---------------------------------------- |
-| v1.0.0  | 29 March 2026 | [tabaisco-1.0.0.zip](tabaisco-1.0.0.zip) |
+| Version | Date          | Download                                 | Notes                                                        |
+| ------- | ------------- | ---------------------------------------- | ------------------------------------------------------------ |
+| v1.0.1  | 29 March 2026 | [tabaisco-1.0.1.zip](tabaisco-1.0.1.zip) | Brand icons, keyboard cycling, small-screen alternation, CSP |
+| v1.0.0  | 29 March 2026 | [tabaisco-1.0.0.zip](tabaisco-1.0.0.zip) | Initial public release                                       |
+
+### What's new in v1.0.1
+
+- **Brand icons** — Extension icons updated to the full Tabaisco app icon at all sizes.
+- **Logo click** — Wordmark fades to low opacity, full on hover; click opens the About tab + donate nudge.
+- **Arrow-key engine cycling** — Press `↑`/`↓` in the search bar to switch engines without a mouse.
+- **Small-screen news ↔ sports alternation** — On narrow screens (≤ 700 px) the bottom bar alternates between news and sports every 7 s with smooth transitions; both tickers advance in sync.
+- **Bug fixes** — Arrow-key double-advance and focus-loss-after-click bugs resolved.
+- **CSP hardening** — Explicit `script-src 'self'; object-src 'self'` policy in the manifest. All dynamic `innerHTML` with interpolated variables replaced with safe DOM API calls.
+- **Cleanup** — Removed unused `microsoft.png`, corrected SVG filename, fixed Office app URLs, silenced favicon request.
 
 ---
 
@@ -29,7 +40,7 @@ Or install directly from the **[Chrome Web Store](#)** _(coming soon)_.
 
 See [PRIVACY.md](PRIVACY.md) for the full privacy policy.
 
-**Short version:** Tabaisco collects zero personal data. No analytics, no trackers, no server.
+**Short version:** Tabaisco collects zero personal data. No analytics, no trackers, no server. Explicit CSP prevents any inline or external script execution.
 
 ---
 
