@@ -21,9 +21,18 @@ Or install directly from the **[Chrome Web Store](#)** _(coming soon)_.
 
 | Version | Date          | Download                                 | Notes                                                        |
 | ------- | ------------- | ---------------------------------------- | ------------------------------------------------------------ |
+| v1.0.3 | 31 March 2026 | [tabaisco-1.0.3.zip](tabaisco-1.0.3.zip) | Inline ghost autocomplete and search history |
 | v1.0.2  | 29 March 2026 | [tabaisco-1.0.2.zip](tabaisco-1.0.2.zip) | Dropdown fix, remove Minimal light theme                     |
 | v1.0.1  | 29 March 2026 | [tabaisco-1.0.1.zip](tabaisco-1.0.1.zip) | Brand icons, keyboard cycling, small-screen alternation, CSP |
 | v1.0.0  | 29 March 2026 | [tabaisco-1.0.0.zip](tabaisco-1.0.0.zip) | Initial public release                                       |
+
+### What's new in v1.0.3
+
+- Inline ghost suggestion via Google Suggest (Tab to accept)
+- Search history in chrome.storage.local (50 entries, deduplication)
+- History dropdown on empty focus with x delete per entry
+- Space-separated queries trigger multi-word completions
+- Dev proxy routes ghost fetch through localhost:3000 when running as extension
 
 ### What's new in v1.0.2
 

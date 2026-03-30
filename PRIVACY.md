@@ -1,6 +1,6 @@
 # Politique de confidentialité — Tabaisco
 
-Dernière mise à jour : 29 mars 2026
+Dernière mise à jour : 31 mars 2026
 
 ## Résumé
 
