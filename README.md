@@ -21,10 +21,21 @@ Or install directly from the **[Chrome Web Store](#)** _(coming soon)_.
 
 | Version | Date          | Download                                 | Notes                                                        |
 | ------- | ------------- | ---------------------------------------- | ------------------------------------------------------------ |
+| v1.0.4 | 31 March 2026 | [tabaisco-1.0.4.zip](tabaisco-1.0.4.zip) | Content script auto-fill for Gemini/Mistral/Copilot, Google Suggest autocomplete, engine scroll throttle |
 | v1.0.3 | 31 March 2026 | [tabaisco-1.0.3.zip](tabaisco-1.0.3.zip) | Inline ghost autocomplete and search history |
 | v1.0.2  | 29 March 2026 | [tabaisco-1.0.2.zip](tabaisco-1.0.2.zip) | Dropdown fix, remove Minimal light theme                     |
 | v1.0.1  | 29 March 2026 | [tabaisco-1.0.1.zip](tabaisco-1.0.1.zip) | Brand icons, keyboard cycling, small-screen alternation, CSP |
 | v1.0.0  | 29 March 2026 | [tabaisco-1.0.0.zip](tabaisco-1.0.0.zip) | Initial public release                                       |
+
+### What's new in v1.0.4
+
+- Auto-fill and submit query via content script for Gemini, Mistral, and Copilot
+- Inline ghost autocomplete from Google Suggest (Tab to accept, space-aware)
+- Search history stored in chrome.storage.local (50 entries, deduplication)
+- History dropdown on empty focus with per-entry delete
+- Dev proxy routes fetches through localhost:3000 when loaded as extension
+- Engine picker scroll throttled to 300ms for smoother UX
+- ChatGPT, Claude, Copilot, Grok navigate directly with ?q=
 
 ### What's new in v1.0.3
 
